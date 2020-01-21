@@ -15,8 +15,8 @@
 
   <distributionManagement>
    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://10.0.0.20:8081/nexus/content/repositories/snapshots</url>
+      <id>anas-mavens</id>
+      <url>http://10.0.0.20:8081/nexus/content/repositories/anas-maven</url>
    </snapshotRepository>
   </distributionManagement>
   
