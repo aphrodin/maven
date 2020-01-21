@@ -13,6 +13,14 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://10.0.0.20:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+  </distributionManagement>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -36,6 +44,9 @@
             <mainClass>com.mypackage.MyClass</mainClass>
           </manifest>
         </archive>
+        <serverId>nexus</serverId>
+        <nexusUrl>http://10.0.0.20:8081/nexus/</nexusUrl>
+        <skipStaging>true</skipStaging>
       </configuration>
         <executions>
             <execution>
