@@ -15,7 +15,8 @@
 
   <distributionManagement>
    <snapshotRepository>
-      <id>anas-mavens</id>
+      <id>nexus</id>
+      <name>anas-maven</name>
       <url>http://10.0.0.20:8081/nexus/content/repositories/anas-maven-group</url>
    </snapshotRepository>
   </distributionManagement>
